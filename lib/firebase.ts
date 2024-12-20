@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "expense-tracker-b9807",
   storageBucket: "expense-tracker-b9807.firebasestorage.app",
   messagingSenderId: "147930303616",
-  appId: "1:147930303616:web:43128a988f09fe9189ea65
+  appId: "1:147930303616:web:43128a988f09fe9189ea65",
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
