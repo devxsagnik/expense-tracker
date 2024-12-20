@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCLWKiUjUqTgKzn4i-KBLbSNrtfHzDNpi8",
-  authDomain: "expensetracker-c09de.firebaseapp.com",
-  projectId: "expensetracker-c09de",
-  storageBucket: "expensetracker-c09de.firebasestorage.app",
-  messagingSenderId: "262444873384",
-  appId: "1:262444873384:web:123fc9a57312588d9ef49d",
+  apiKey: "AIzaSyA4G5O1-OwE7EIizyonJnk2jAuMwJbtYNQ",
+  authDomain: "expense-tracker-b9807.firebaseapp.com",
+  projectId: "expense-tracker-b9807",
+  storageBucket: "expense-tracker-b9807.firebasestorage.app",
+  messagingSenderId: "147930303616",
+  appId: "1:147930303616:web:43128a988f09fe9189ea65
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
